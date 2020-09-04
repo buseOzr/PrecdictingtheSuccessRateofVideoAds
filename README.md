@@ -27,19 +27,18 @@ increase the success/delivery rate of video ads and its revenue.
 
 * There is no trend in AUC over time
   * Run experiments on multiple days
-⋅⋅* XGBoost model outperforms Decision Tree, AdaBoost and Random Forest
-⋅⋅* ⋅⋅* Better AUC, better control over the model
-Scalable and parallelizable
-High variance in data	
-The model has to be adaptive and flexible
-Early Stopping mechanism
-XGBoost and Neural Network performs nearly the same
-Neural Network requires more expertise
-Implementation of Neural Network has some advantages
-Continuous Learning
-Serving in production
-Transfer Learning
+* XGBoost model outperforms Decision Tree, AdaBoost and Random Forest
+ * Better AUC, better control over the model
+ * Scalable and parallelizable
+*High variance in data	
+ * The model has to be adaptive and flexible rather than assigning fixed parameters
+ * Early Stopping mechanism
+* XGBoost and Neural Network performs nearly the same
+ * Neural Network requires more expertise
+* Implementation of Neural Network has some advantages
+ * Continuous Learning
+ * Serving in production
+ * Transfer Learning
 
 
-⋅⋅* 
-⋅⋅* 
+
