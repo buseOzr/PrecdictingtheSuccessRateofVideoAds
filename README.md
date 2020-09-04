@@ -1,4 +1,6 @@
 # Predicting the Success Rate of Video Ads
+
+## Abstract
 With the extensive usage of video ads in the digital advertising industry,
 achieving a high success rate of video-based advertisements has gained significant importance
 in the ad tech industry. Hence it is essential to deliver video advertisements to end-users
@@ -11,9 +13,9 @@ experience to end-users, to give substantial benefit to advertisers, to increase
 of publishers and the regarding ad server company because if an ad is served on the serverside,
 though it fails on the client-side, it is not exposed to an end-user. Consequently,
 there is no revenue either for a publisher or an ad server. Moreover, the advertiser is not
-able to show its content to a user. This situation is undesirable for all parties. Therefore
-this paper proposes a methodology that builds a machine learning model in order to
-predict the success rate of video ads for given constraints. This method helps ad servers
-to calculate the expected revenue of each bidder in an auction. By doing so, the ad server
-chooses a bidder with the highest expected revenue. Consequently, the ad server can
+able to show its content to a user. This situation is undesirable for all parties. __Therefore
+this study proposes a methodology that builds a machine learning model in order to
+predict the success rate of video ads for given constraints, compare the state-of-the-art approaches and improve them progressively__
+. This method helps SSPs to calculate the expected revenue of each bidder in an auction. By doing so, the ad server
+chooses a bidder with the highest expected revenue. Consequently, SSPs can
 increase the success/delivery rate of video ads and its revenue.
