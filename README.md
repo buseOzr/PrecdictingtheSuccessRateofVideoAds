@@ -25,7 +25,7 @@ increase the success/delivery rate of video ads and its revenue.
 
 ### Conclusion
 
-In summary, this paper argues different state-of-the-art approaches in order to predict
+In summary, this study discusses different state-of-the-art approaches in order to predict
 the delivery rate/success rate of video ads. An iterative approach is followed throughout
 the study. At each step, some changes are applied, and their impact is analyzed on
 the corresponding model. First of all, different tree-based models are compared, and
@@ -45,11 +45,10 @@ Moreover, Extreme Gradient Boosting and Neural Network models are trained to
 compare their results and analyze their advantages and disadvantages. In conclusion,
 even though their results are very similar to each other, Extreme Gradient Boosting performs
 slightly better than the Neural Network model. However, it is difficult to reach a
-conclusion since there is a slight difference between the two models. There are a few advantages
+conclusion since there is a slight difference between the two models. Moreover, there are a few advantages
 of using neural networks over XGBoost as follows. As a reminder, TensorFlow is
-used to implement the Neural Network model in the Implementation section. TensorFlow
+used to implement the Neural Network model in the study. TensorFlow
 provides the flexibility of building a better pipeline, the stable solution for serving in production,
 and the possibility for transfer learning for future projects. Another advantage
 is the ability to apply continuous learning, which is progressive and adaptive as new data
-is acquired. These advantages make the neural network more suitable. Therefore there is
-some future work that needs to be done.
+is acquired. These advantages make the neural network more suitable. 
