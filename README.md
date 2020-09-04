@@ -1,7 +1,7 @@
 ## [Predicting the Success Rate of Video Ads](https://github.com/buseOzr/PredictingtheSuccessRate)
 
 This master’s thesis is written in cooperation between Smart AdServer’s Research and
-Development Department and CentraleSupelec.You can access the master thesis report and the presentation through the link above.
+Development Department and CentraleSupelec. The master thesis report and the presentation are accessible through the link above.
 
 ### Abstract
 With the extensive usage of video ads in the digital advertising industry,
