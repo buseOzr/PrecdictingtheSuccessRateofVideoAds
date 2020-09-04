@@ -25,20 +25,31 @@ increase the success/delivery rate of video ads and its revenue.
 
 ### Conclusion
 
-* There is no trend in AUC over time
-  * Run experiments on multiple days
-* XGBoost model outperforms Decision Tree, AdaBoost and Random Forest
- * Better AUC, better control over the model
- * Scalable and parallelizable
-* High variance in data	
- * The model has to be adaptive and flexible rather than assigning fixed parameters
- * Early Stopping mechanism
-* XGBoost and Neural Network performs nearly the same
- * Neural Network requires more expertise
-* Implementation of Neural Network has some advantages
- * Continuous Learning
- * Serving in production
- * Transfer Learning
-
-
-
+In summary, this paper argues different state-of-the-art approaches in order to predict
+the delivery rate/success rate of video ads. An iterative approach is followed throughout
+the study. At each step, some changes are applied, and their impact is analyzed on
+the corresponding model. First of all, different tree-based models are compared, and
+the best performing algorithm is chosen for further improvements. As a result, Extreme
+Gradient Boosting gives clearly better results than Decision Tree, Ada Boost, and Random
+Forest. Besides performing well, Extreme Gradient Boosting is scalable and parallelizable.
+Although it is harder to tune it compared to the other tree-based classifiers due to the
+high number of parameters, it allows us to have more control over the model.
+During the experiments, it is realized that there is a high variation in data, and the
+distribution changes over time. Therefore, the model should be adaptive and flexible,
+depending on the data set of any given time in order to perform well. Consequently, the
+parameters of the model should not be the same; thus, early stopping strategy is applied
+in order to adapt the changes over time. Furthermore, due to the data variance in time,
+the model should be trained with the most current data as frequently as possible in order
+to get the greatest performance.
+Moreover, Extreme Gradient Boosting and Neural Network models are trained to
+compare their results and analyze their advantages and disadvantages. In conclusion,
+even though their results are very similar to each other, Extreme Gradient Boosting performs
+slightly better than the Neural Network model. However, it is difficult to reach a
+conclusion since there is a slight difference between the two models. There are a few advantages
+of using neural networks over XGBoost as follows. As a reminder, TensorFlow is
+used to implement the Neural Network model in the Implementation section. TensorFlow
+provides the flexibility of building a better pipeline, the stable solution for serving in production,
+and the possibility for transfer learning for future projects. Another advantage
+is the ability to apply continuous learning, which is progressive and adaptive as new data
+is acquired. These advantages make the neural network more suitable. Therefore there is
+some future work that needs to be done.
