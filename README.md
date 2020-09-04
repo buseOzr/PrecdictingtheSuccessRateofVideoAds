@@ -25,7 +25,7 @@ increase the success/delivery rate of video ads and its revenue.
 
 ### Conclusion
 
-⋅⋅* There is no trend in AUC over time
+⋅⋅*There is no trend in AUC over time
 ⋅⋅* ⋅⋅* Run experiments on multiple days
 ⋅⋅* XGBoost model outperforms Decision Tree, AdaBoost and Random Forest
 ⋅⋅* ⋅⋅* Better AUC, better control over the model
