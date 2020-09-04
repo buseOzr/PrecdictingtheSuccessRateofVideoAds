@@ -1,4 +1,4 @@
-# PredictingtheSuccessRateofVideoAds
+# Predicting the Success Rate of Video Ads
 With the extensive usage of video ads in the digital advertising industry,
 achieving a high success rate of video-based advertisements has gained significant importance
 in the ad tech industry. Hence it is essential to deliver video advertisements to end-users
