@@ -1,1 +1,1 @@
-# PrecdictingtheSuccessRateofVideoAds
+# PredictingtheSuccessRateofVideoAds
