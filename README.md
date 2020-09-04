@@ -30,7 +30,7 @@ increase the success/delivery rate of video ads and its revenue.
 * XGBoost model outperforms Decision Tree, AdaBoost and Random Forest
  * Better AUC, better control over the model
  * Scalable and parallelizable
-*High variance in data	
+* High variance in data	
  * The model has to be adaptive and flexible rather than assigning fixed parameters
  * Early Stopping mechanism
 * XGBoost and Neural Network performs nearly the same
