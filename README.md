@@ -1,4 +1,4 @@
-## [ Predicting the Success Rate of Video Ads] (https://github.com/buseOzr/PredictingtheSuccessRate)
+## [Predicting the Success Rate of Video Ads](https://github.com/buseOzr/PredictingtheSuccessRate)
 
 ### Abstract
 With the extensive usage of video ads in the digital advertising industry,
