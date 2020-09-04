@@ -1,5 +1,8 @@
 ## [Predicting the Success Rate of Video Ads](https://github.com/buseOzr/PredictingtheSuccessRate)
 
+This master’s thesis is written in cooperation between Smart AdServer’s Research and
+Development Department and CentraleSupelec.You can access the master thesis report and the presentation through the link above.
+
 ### Abstract
 With the extensive usage of video ads in the digital advertising industry,
 achieving a high success rate of video-based advertisements has gained significant importance
@@ -19,3 +22,24 @@ predict the success rate of video ads for given constraints, compare the state-o
 . This method helps SSPs to calculate the expected revenue of each bidder in an auction. By doing so, the ad server
 chooses a bidder with the highest expected revenue. Consequently, SSPs can
 increase the success/delivery rate of video ads and its revenue.
+
+### Conclusion
+
+⋅⋅* There is no trend in AUC over time
+⋅⋅* ⋅⋅* Run experiments on multiple days
+⋅⋅* XGBoost model outperforms Decision Tree, AdaBoost and Random Forest
+⋅⋅* ⋅⋅* Better AUC, better control over the model
+Scalable and parallelizable
+High variance in data	
+The model has to be adaptive and flexible
+Early Stopping mechanism
+XGBoost and Neural Network performs nearly the same
+Neural Network requires more expertise
+Implementation of Neural Network has some advantages
+Continuous Learning
+Serving in production
+Transfer Learning
+
+
+⋅⋅* 
+⋅⋅* 
